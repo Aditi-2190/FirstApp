@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Amit Jain | Java Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body class="bg-gray-900 text-gray-200">
+
+<!-- Hero Section -->
+<section class="min-h-screen flex items-center justify-center bg-gradient-to-r from-indigo-600 to-purple-600">
+  <div class="text-center" data-aos="fade-up">
+    <h1 class="text-5xl font-bold mb-4">Amit Jain</h1>
+    <p class="text-xl mb-6">Java Developer | Spring | MySQL</p>
+    <a href="#contact" class="px-6 py-3 bg-white text-indigo-600 font-semibold rounded-full shadow-lg hover:scale-105 transition">
+      Contact Me
+    </a>
+  </div>
+</section>
+
+<!-- About -->
+<section class="max-w-5xl mx-auto px-6 py-20" data-aos="fade-right">
+  <h2 class="text-3xl font-bold mb-6 text-indigo-400">About Me</h2>
+  <p class="text-lg leading-relaxed">
+    I am a passionate Java Developer with <strong>2 years of professional experience</strong> at XYZ Company.
+    I specialize in building scalable backend applications using Java, Spring Framework, and MySQL.
+    I have successfully delivered multiple industry-level projects with clean and efficient code.
+  </p>
+</section>
+
+<!-- Skills -->
+<section class="bg-gray-800 py-20">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-10 text-indigo-400" data-aos="fade-up">Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6" data-aos="zoom-in">
+      <span class="skill">Java</span>
+      <span class="skill">Spring</span>
+      <span class="skill">Spring Boot</span>
+      <span class="skill">MySQL</span>
+      <span class="skill">REST APIs</span>
+      <span class="skill">Hibernate</span>
+      <span class="skill">Git</span>
+      <span class="skill">Microservices</span>
+    </div>
+  </div>
+</section>
+
+<!-- Experience -->
+<section class="max-w-5xl mx-auto px-6 py-20" data-aos="fade-left">
+  <h2 class="text-3xl font-bold mb-6 text-indigo-400">Experience</h2>
+  <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
+    <h3 class="text-xl font-semibold">Java Developer – XYZ Company</h3>
+    <p class="text-sm text-gray-400 mb-4">2 Years Experience</p>
+    <ul class="list-disc ml-6 space-y-2">
+      <li>Developed backend applications using Java & Spring Boot</li>
+      <li>Designed RESTful APIs for enterprise systems</li>
+      <li>Optimized MySQL queries for performance</li>
+      <li>Collaborated with frontend and QA teams</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Projects -->
+<section class="bg-gray-800 py-20">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-10 text-indigo-400" data-aos="fade-up">Projects</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="project-card" data-aos="flip-left">Enterprise Management System</div>
+      <div class="project-card" data-aos="flip-right">Online Booking Application</div>
+      <div class="project-card" data-aos="flip-left">Inventory Management System</div>
+      <div class="project-card" data-aos="flip-right">CRM Application</div>
+      <div class="project-card md:col-span-2" data-aos="zoom-in">
+        E-commerce REST API Platform
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="max-w-5xl mx-auto px-6 py-20" data-aos="fade-up">
+  <h2 class="text-3xl font-bold mb-6 text-indigo-400">Contact</h2>
+  <div class="bg-gray-800 p-6 rounded-xl">
+    <p>Email: amitjain@example.com</p>
+    <p>LinkedIn: linkedin.com/in/amitjain</p>
+    <p>GitHub: github.com/amitjain</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center py-6 bg-gray-950 text-gray-500">
+  © 2025 Amit Jain | Java Developer
+</footer>
+
+<!-- Tailwind Custom Classes -->
+<style>
+  .skill {
+    background: linear-gradient(to right, #6366f1, #8b5cf6);
+    padding: 12px;
+    text-align: center;
+    border-radius: 9999px;
+    font-weight: 600;
+    transition: transform 0.3s;
+  }
+  .skill:hover {
+    transform: scale(1.1);
+  }
+  .project-card {
+    background: #111827;
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    transition: transform 0.4s;
+  }
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+</style>
+
+<!-- Animation Script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+
+</body>
+</html>
