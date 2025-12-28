@@ -7,3 +7,7 @@ Basic Application In _HTML_
 
 [For More Projects](https:google.com)
 ![app image](https://thumbs.dreamstime.com/b/espresso-coffee-cup-beans-vintage-table-90374872.jpg)
+
+```python
+    def demo(): 
+    print("Hello..")
